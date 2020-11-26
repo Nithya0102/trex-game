@@ -70,7 +70,7 @@ function setup() {
 
 function draw() {
   //trex.debug = true;
-  background("blue");
+  background("white");
   text("Score: "+ score, 500,50);
   text("HighScore: "+localStorage["HighestScore"],100,50)
   
